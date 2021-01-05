@@ -336,6 +336,7 @@
                     <h4 class="mb-4">Me encontre</h4>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/imnotvirus"><i class="fab fa-fw fa-twitter"></i></a>
                     <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/luizcode/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/imnotvirus"><i class="fab fa-fw fa-github"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
