@@ -280,10 +280,13 @@
             <!-- About Section Content-->
             <div class="row">
                 <div class="col-lg-4 ml-auto">
-                    <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                    <p class="pre-wrap lead">Artista grafico focado em artes para web e social medias.</p>
                 </div>
                 <div class="col-lg-4 mr-auto">
-                    <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                    <p class="pre-wrap lead">Web Designer com conhecimentos em paginas performaticas e responsivas para sua empresa</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="pre-wrap lead">Developer FullStack, com conhecimento em PHP, JavaScript, React, Flutter...</p>
                 </div>
             </div>
         </div>
@@ -303,11 +306,13 @@
             <!-- Contact Section Content-->
             <div class="row justify-content-center">
                 <div class="col-lg-4">
-                    <div class="d-flex flex-column align-items-center">
-                        <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
-                        <div class="text-muted">Phone</div>
-                        <div class="lead font-weight-bold">(21) 9-7956-5344</div>
-                    </div>
+                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=5521979565344&text=Oi+Luiz%21&app_absent=0" >
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="text-muted">Phone</div>
+                            <div class="lead font-weight-bold">(21) 9-7956-5344</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-4">
                     <div class="d-flex flex-column align-items-center">
@@ -324,24 +329,25 @@
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="mb-4">LOCATION</h4>
-                    <p class="pre-wrap lead mb-0">2215 John Daniel Drive
-Clark, MO 65243</p>
+                    <p class="pre-wrap lead mb-0">Rio de Janeiro <br> Brasil</p>
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/StartBootstrap"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/sbootstrap"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/startbootstrap"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://www.dribble.com/startbootstrap"><i class="fab fa-fw fa-dribbble"></i></a>
+                    <h4 class="mb-4">Me encontre</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/imnotvirus"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/luizcode/"><i class="fab fa-fw fa-linkedin-in"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
-                    <h4 class="mb-4">ABOUT FREELANCER</h4>
-                    <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by Start Bootstrap</p>
+                    <h4 class="mb-4">Obrigado</h4>
+                    <p class="pre-wrap lead mb-0">Obrigado por entrar na minha pagina, qualquer duvida pode me ativar no whatsapp e trocar um papo.</p>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Copyright Section-->
     <section class="copyright py-4 text-center text-white">
-        <div class="container"><small class="pre-wrap">Copyright © Your Website 2020</small></div>
+        <div class="container"><small class="pre-wrap">© imnotvirus 2021</small></div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
