@@ -8,7 +8,7 @@
     <title>{{ $github->name }} - Home</title>
 @endsection
 @section('content')
-
+<body id="page-top">
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
         <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">LUIZ CLAUDIO</a>
             <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
@@ -59,14 +59,14 @@
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="/luiz/img/portfolio/cabin.png" alt="Log Cabin"/>
+                        </div><img class="img-fluid" src="/luiz/img/portfolio/barbeariadogordin.jpg" alt="Barbearia do Gordin"/>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div><img class="img-fluid" src="/luiz/img/portfolio/cake.png" alt="Tasty Cake"/>
+                        </div><img class="img-fluid" src="/luiz/img/portfolio/barbeariajb.jpg" alt="Tasty Cake"/>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
@@ -110,17 +110,18 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Barbearia do Gordin</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/cabin.png" alt="Log Cabin"/>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/barbeariadogordin.jpg" alt="Barbearia do Gordin"/>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/instagram-barbeariadogordin.jpg" alt="Barbearia do Gordin"/>
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                <p class="mb-5">Artes feitas para instagram, cartão de visita com direito a logo personalizado.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
                     </div>
@@ -137,17 +138,18 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">Tasty Cake</h2>
+                                <h2 class="portfolio-modal-title text-secondary mb-0">Barbearia do JB</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
-                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/cake.png" alt="Tasty Cake"/>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/barbeariajb.jpg" alt="Tasty Cake"/>
+                                <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/instagram-barbeariadojb.jpg" alt="Tasty Cake"/>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
                     </div>
@@ -174,7 +176,7 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/circus.png" alt="Circus Tent"/>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
                     </div>
@@ -201,7 +203,7 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/game.png" alt="Controller"/>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
                     </div>
@@ -228,7 +230,7 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/safe.png" alt="Locked Safe"/>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
                     </div>
@@ -255,7 +257,7 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/submarine.png" alt="Submarine"/>
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
                     </div>
