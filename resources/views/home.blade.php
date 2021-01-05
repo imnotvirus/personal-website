@@ -127,7 +127,7 @@
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/barbeariajb.jpg" alt="Tasty Cake"/>
                                 <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="/luiz/img/portfolio/instagram-barbeariadojb.jpg" alt="Tasty Cake"/>
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                <p class="mb-5">Identidade visual criada para uma barbearia de bairro, localizada em São Gonçalo/RJ </p>
                                 <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Fechar janela</button>
                             </div>
                         </div>
@@ -207,7 +207,7 @@
                 <div class="col-lg-4">
                     <a target="_blank" href="https://api.whatsapp.com/send/?phone=5521979565344&text=Oi+Luiz%21&app_absent=0" >
                         <div class="d-flex flex-column align-items-center">
-                            <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="icon-contact mb-3"><i class="fa fa-whatsapp"></i></div>
                             <div class="text-muted">Phone</div>
                             <div class="lead font-weight-bold">(21) 9-7956-5344</div>
                         </div>
@@ -227,7 +227,7 @@
             <div class="row">
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="mb-4">LOCATION</h4>
+                    <h4 class="mb-4">Lugar</h4>
                     <p class="pre-wrap lead mb-0">Rio de Janeiro <br> Brasil</p>
                 </div>
                 <!-- Footer Social Icons-->
