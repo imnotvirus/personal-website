@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
+    <link rel="icon" href="{!! asset('luiz/favicon.ico') !!}"/>
+
     @yield('header')
 </head>
 <body id="page-top">
