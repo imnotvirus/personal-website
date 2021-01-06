@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
     <link rel="icon" href="{!! asset('luiz/favicon.ico') !!}"/>
-
+    @livewireStyles
     @yield('header')
 </head>
 <body id="page-top">
     @yield('content')
+    @livewireScripts
 </body>
 </html>
