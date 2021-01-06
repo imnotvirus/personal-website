@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="{{asset('css/luiz/styles.css')}}">
     <link rel="stylesheet" href="/css/luiz/body.css">
     <link rel="stylesheet" href="/css/luiz/heading.css">
-
+    <script data-ad-client="ca-pub-7780458330204916" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <title>{{ $github->name }} - Home</title>
 @endsection
 @section('content')
