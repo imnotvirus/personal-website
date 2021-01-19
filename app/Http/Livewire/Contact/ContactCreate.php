@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire;
+namespace App\Http\Livewire\Contact;
 
 use App\Models\Contact;
 use Livewire\Component;
@@ -12,10 +12,15 @@ class ContactCreate extends Component
     public $phone;
 
     protected $rules = [
-        'name' => 'required',
+        'name' => 'required|min:4',
         'email' => 'required',
         'phone' => 'required',
     ];
+
+    public function updated($propertyName)
+    {
+        $this->validateOnly($propertyName);
+    }
 
     public function create()
     {
@@ -26,9 +31,10 @@ class ContactCreate extends Component
             'phone' =>  $this->phone
         ]);
         $this->name = $this->email = $this->phone = null;
+        session()->flash('message', 'Contato salvo com sucesso!');
     }
     public function render()
     {
-        return view('livewire.contact-create');
+        return view('livewire.contact.contact-create');
     }
 }

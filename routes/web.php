@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LiveWireTest;
-
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,8 +14,17 @@ use App\Http\Controllers\LiveWireTest;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function (  ) {
+
+Route::get('/', function () {
     return redirect('/home');
 });
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('product/', [ProductController::class, 'index'])
+    ->name('product.index');
+Route::get('product/create', [ProductController::class, 'create'])
+    ->name('product.create');
+Route::get('product/{product}', [ProductController::class, 'show'])
+    ->name('product.show');
+Route::get('category/product/{product}', [ProductController::class, 'removeCategory'])
+    ->name('category.product.show');
 Route::resource('livewire', LiveWireTest::class);

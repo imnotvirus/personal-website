@@ -4,13 +4,9 @@
 @section('content')
     <h1>livewire</h1>
     <div class="container">
+
         <div class="row">
-            <livewire:contact-create />
-            <livewire:contact-create />
-            <livewire:contact-create />
-            <livewire:contact-create />
-            <livewire:contact-create />
-            <livewire:contact-create />
+            <livewire:contact.contact-create :contact="1"/>
         </div>
     </div>
 
