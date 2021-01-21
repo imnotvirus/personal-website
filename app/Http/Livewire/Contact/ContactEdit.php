@@ -7,18 +7,38 @@ use App\Models\Contact;
 
 class ContactEdit extends Component
 {
-    public $contact;
+    public$contactId;
     public $name;
     public $email;
     public $phone;
 
-    public function mount($contact)
-    {
-        $this->contact  = Contact::find($contact);
-        $this->name     = $contact->name;
-        $this->email    = $contact->email;
-        $this->phone    = $contact->phone;
+    protected $rules = [
+        'name' => 'required|min:4',
+        'email' => 'required',
+        'phone' => 'required',
+    ];
 
+    public function mount(Contact $contact)
+    {
+        //$contact  = Contact::find($contact);
+        $this->name         = $contact->name;
+        $this->email        = $contact->email;
+        $this->phone        = $contact->phone;
+        $this->contactId    = $contact->id;
+    }
+    public function update(){
+        $contact = Contact::find($this->contactId);
+
+        $this->validate();
+
+        $contact->update([
+            'name'  =>  $this->name,
+            'email' =>  $this->email,
+            'phone' =>  $this->phone,
+
+        ]);
+
+        session()->flash('message', 'Contato atualizado com sucesso!');
     }
     public function render()
     {

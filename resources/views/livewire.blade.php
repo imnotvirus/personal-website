@@ -4,10 +4,8 @@
 @section('content')
     <h1>livewire</h1>
     <div class="container">
-
         <div class="row">
-            <livewire:contact.contact-create :contact="1"/>
+            <livewire:contact.contact-create />
         </div>
     </div>
-
 @endsection

@@ -2,7 +2,7 @@
     <h2>Editar Contato</h2>
 
     <div>
-        <form wire:submit.prevent="create" method="post">
+        <form wire:submit.prevent="update" method="post">
 
                 <div class="col-12">
                     @if (session()->has('message'))
